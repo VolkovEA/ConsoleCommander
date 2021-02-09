@@ -5,6 +5,6 @@ namespace ConsoleCommander\Exceptions;
 /**
  * Class LogicException
  */
-class LogicException extends \InvalidArgumentException
+class LogicException extends \LogicException
 {
 }
