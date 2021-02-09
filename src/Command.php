@@ -4,6 +4,8 @@ namespace ConsoleCommander;
 
 /**
  * Class Command
+ *
+ * Base abstract class for all commands
  */
 abstract class Command
 {

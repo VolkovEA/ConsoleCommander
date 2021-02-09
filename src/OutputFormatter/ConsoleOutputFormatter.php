@@ -6,6 +6,8 @@ use ConsoleCommander\OutputFormatter\OutputFormatterInterface;
 
 /**
  * Class OutputFormatter
+ *
+ * Output formatter for console
  */
 class ConsoleOutputFormatter implements OutputFormatterInterface
 {

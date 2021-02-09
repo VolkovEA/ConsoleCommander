@@ -4,6 +4,8 @@ namespace Tests;
 
 /**
  * Class ConsoleCommanderTest
+ *
+ * Basic ConsoleCommander test
  */
 class ConsoleCommanderTest extends TestCase
 {

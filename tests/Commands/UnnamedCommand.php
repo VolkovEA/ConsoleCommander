@@ -4,6 +4,11 @@ namespace Tests\Commands;
 
 use ConsoleCommander\Command;
 
+/**
+ * Class UnnamedCommand
+ *
+ * Simple unnamed command
+ */
 class UnnamedCommand extends Command
 {
     /**

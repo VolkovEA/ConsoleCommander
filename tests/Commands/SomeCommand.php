@@ -4,6 +4,11 @@ namespace Tests\Commands;
 
 use ConsoleCommander\Command;
 
+/**
+ * Class SomeCommand
+ *
+ * Example command
+ */
 class SomeCommand extends Command
 {
     /**

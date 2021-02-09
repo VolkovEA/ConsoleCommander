@@ -7,6 +7,8 @@ use ConsoleCommander\Exceptions\InvalidArgumentException;
 
 /**
  * Class CommandContainer
+ *
+ * Container for Command Class
  */
 class CommandContainer
 {

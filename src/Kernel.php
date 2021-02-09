@@ -7,6 +7,8 @@ use ConsoleCommander\OutputFormatter\OutputFormatterInterface;
 
 /**
  * Class Kernel
+ *
+ * Kernel of ConsoleCommander library
  */
 class Kernel
 {

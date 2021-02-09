@@ -2,12 +2,14 @@
 
 namespace ConsoleCommander;
 
+use ConsoleCommander\Exceptions\CommandNotFoundException;
 use ReflectionClass;
-use ConsoleCommander\Exceptions\InvalidArgumentException;
 use ConsoleCommander\Exceptions\LogicException;
 
 /**
  * Class CommandMap
+ *
+ * Map of CommandContainer class
  */
 class CommandMap implements \Iterator, \Countable
 {
@@ -95,7 +97,7 @@ class CommandMap implements \Iterator, \Countable
         if (isset($this->array[$name])) {
             return $this->array[$name];
         } else {
-            throw new InvalidArgumentException('Command "'.$name.'" does not exist');
+            throw new CommandNotFoundException('Command "'.$name.'" does not exist');
         }
     }
 

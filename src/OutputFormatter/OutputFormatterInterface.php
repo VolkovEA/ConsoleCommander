@@ -4,6 +4,8 @@ namespace ConsoleCommander\OutputFormatter;
 
 /**
  * Interface OutputFormatterInterface
+ *
+ * Basic interface of formatted output
  */
 interface OutputFormatterInterface
 {

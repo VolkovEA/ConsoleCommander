@@ -4,6 +4,11 @@ namespace Tests\Commands;
 
 use ConsoleCommander\Command;
 
+/**
+ * Class EchoCommand
+ *
+ * Command to print list of options and arguments
+ */
 class EchoCommand extends Command
 {
     /**
